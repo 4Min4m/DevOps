@@ -73,3 +73,30 @@ DevOps Navigators, welcome to the sixth step of our #DevOps learning journey, wh
 
 
 #Monitoring #Logging #Observability #DevOpsInsights #LearningTogether
+==========================================
+🚀 Day 2: Centralized Logging with ELK Stack
+
+#DevOps Explorers, welcome to Day 2 of our journey into monitoring, logging, and observability! 🌐📋 Today, we dive into the world of centralized logging with the powerful #ELK Stack (#Elasticsearch, #Logstash, #Kibana).
+
+*Logging Essentials:
+Centralized logging is the backbone of understanding application behavior and identifying potential issues. The ELK Stack empowers us with a seamless way to aggregate, analyze, and visualize logs.
+
+*Configuring ELK Stack
+
+1. Install ELK Stack:
+   - Follow the official installation guide for Elasticsearch, Logstash, and Kibana.
+   - Ensure each component is running and accessible.
+
+2. Configure Logstash:
+   - Create a Logstash configuration file to define input (log source), filter (processing), and output (Elasticsearch).
+   - Test Logstash configurations for correct parsing and forwarding.
+
+3. Explore Kibana:
+   - Access the Kibana dashboard and connect it to your Elasticsearch index.
+   - Create visualizations and dashboards to gain insights from your logs.
+
+4. Log Analysis:
+   - Analyze different types of logs, including error logs and access logs.
+   - Use Kibana's search and filter capabilities to pinpoint specific log entries.
+
+#LoggingInAction #DevOpsLearning #DevOpsLoggingJourney
