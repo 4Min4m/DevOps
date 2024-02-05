@@ -100,3 +100,52 @@ Centralized logging is the backbone of understanding application behavior and id
    - Use Kibana's search and filter capabilities to pinpoint specific log entries.
 
 #LoggingInAction #DevOpsLearning #DevOpsLoggingJourney
+
+==================°================
+
+
+🚀 Day 3: Real-time Monitoring with Prometheus and Grafana
+
+DevOps Explorers, welcome to Day 3 of our thrilling exploration into monitoring, logging, and observability! 🌐📊 Today, we shift our focus to real-time monitoring with the dynamic duo: Prometheus and Grafana.
+
+*Real-time Insights:
+Prometheus empowers us with robust real-time monitoring, while Grafana elevates our visualization game. Together, they offer a comprehensive view of our system's metrics.
+
+*Example: Setting Up Prometheus and Grafana:
+
+Imagine managing a Kubernetes cluster with multiple microservices. Today, we'll set up Prometheus for monitoring metrics and Grafana for visualizing these metrics in a comprehensive dashboard.
+
+* Step 1: Install Prometheus and Grafana
+1.Deploy Prometheus:
+   - Create a Prometheus YAML file specifying the configuration and scraping targets for your cluster.
+   - Execute: `kubectl apply -f prometheus-config.yaml`
+
+2.Deploy Grafana:
+   - Use Helm to deploy Grafana and connect it to Prometheus for data sources.
+   - Execute: `helm install grafana stable/grafana -f grafana-values.yaml`
+
+* Step 2: Visualize Metrics in Grafana
+1. Access Grafana Dashboard:
+   - Get the Grafana service URL: `kubectl get svc -n your-grafana-namespace`
+   - Access Grafana using the provided URL.
+   - Design custom dashboards in Grafana to visualize key metrics.
+   - Include charts for CPU usage, memory usage, and any other relevant metrics.
+
+2. Configure Prometheus as a Data Source:
+   - Add Prometheus as a data source in Grafana using the Prometheus service URL.
+
+3. Import Kubernetes Dashboard:
+   - Import a Kubernetes dashboard in Grafana to visualize key metrics.
+
+* Step 3: Explore Alerting and Monitoring in Prometheus
+1. Define Alerts in Prometheus:
+   - Edit the Prometheus configuration to define alert rules for specific metrics.
+
+2. Monitor Alerts:
+   - Observe how Prometheus detects alerts and triggers notifications.
+
+5. **Share Your Visualizations:**
+   - Share screenshots of your Grafana dashboards, insights, or any challenges faced using #RealTimeMonitoring #DevOpsLearning 🚀
+
+Join me in harnessing the power of real-time monitoring with Prometheus and Grafana! 🌟 #Day3Adventures #DevOpsMonitoringJourney
+#K8sMonitoringMagic #PrometheusGrafanaSetup #ObservabilityExcellence #DevOpsMetricsOrchestra #LearningTogether
